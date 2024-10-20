@@ -1,0 +1,71 @@
+.App {
+  text-align: center;
+}
+
+.Header, .Footer {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+}
+
+.MainContent {
+  display: flex;
+}
+
+/* Sidebar styling */
+.Sidebar {
+  width: 200px;
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-right: 1px solid #ddd;
+}
+
+.Sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.Sidebar li {
+  margin: 10px 0;
+}
+
+.Sidebar a {
+  text-decoration: none;
+  color: #333;
+  display: block;
+  padding: 10px;
+  border-radius: 4px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.Sidebar a:hover {
+  background-color: #ddd;
+  color: #000;
+}
+
+/* Ensure the body and html take full height */
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+/* Flexbox layout for the App component */
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Main content should take the remaining space */
+.MainContent {
+  display: flex;
+  flex: 1;
+}
+
+/* Footer styling */
+.Footer {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
